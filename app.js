@@ -35,7 +35,7 @@ function loginURL(redirectURI) {
     query: {
       client_id: FBAPP.id,
       redirect_uri: redirectURI,
-      scope: FBAPP.scope,
+      //scope: FBAPP.scope,
       response_type: 'none'
     }
   })
@@ -112,7 +112,7 @@ function sendLogin(req, res, next) {
     '<a target="_top" href=' + JSON.stringify(loginURL(canvasURL)) + '>' +
       'Full Page Canvas Login' +
     '</a><br><br>' +
-    '<div class="fb-login-button" scope="' + FBAPP.scope + '">' +
+    '<div class="fb-login-button">' +
       'JS SDK Dialog Login' +
     '</div>' +
     js({ reloadOnLogin: true })

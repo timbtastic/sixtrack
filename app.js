@@ -11,10 +11,10 @@ var express = require('express')
 var request = require('request')
 var signedRequestMaxAge = 86400
 var FBAPP = {
-  id: process.env.FACEBOOK_APP_ID,
-  secret: process.env.FACEBOOK_SECRET,
-  ns: process.env.FACEBOOK_NAMESPACE,
-  scope: process.env.FACEBOOK_SCOPE
+  id: process.env.159045587614731,
+  secret: process.env.d39f390c4c583e9ffd7f41b3b4904084,
+  ns: process.env.sixtrack,
+  scope: process.env.id,name,first_name,last_name,username,gender,locale,age_range
 }
 
 // The URL to our Canvas Application.

@@ -1,8 +1,18 @@
 {
-  "name": "node-example",
+  "name": "Sixtrack",
+  "description": "The best 6 songs you've never heard."
   "version": "0.0.1",
+  "homepage": "http://www.sixtrack.me",
+  "author": "Tim Blount <tim@timtastic.com>",
+  "bin": { "sixtrack": "./web.js" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timbtastic/sixtrack"
+  },
   "dependencies": {
     "express": "3.1.x"
+	"request": "2.11.x",
+    "signed-request": "1.0.x"
   },
   "engines": {
     "node": "0.10.x",

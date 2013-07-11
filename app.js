@@ -13,8 +13,8 @@ var signedRequestMaxAge = 86400
 var FBAPP = {
   id: process.env.159045587614731,
   secret: process.env.d39f390c4c583e9ffd7f41b3b4904084,
-  ns: process.env."sixtrack",
-  scope: process.env."first_name"
+  ns: process.env.sixtrack,
+  scope: process.env.email
 }
 
 // The URL to our Canvas Application.

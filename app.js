@@ -14,7 +14,7 @@ var FBAPP = {
   id: process.env.159045587614731,
   secret: process.env.d39f390c4c583e9ffd7f41b3b4904084,
   ns: process.env.sixtrack,
-  scope: process.env.id,name,first_name,last_name,username,gender,locale,age_range
+  scope: process.env.first_name
 }
 
 // The URL to our Canvas Application.

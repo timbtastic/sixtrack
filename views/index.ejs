@@ -4,7 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
 
+<<<<<<< HEAD
     <title>Sixtrack</title>
+=======
+    <title><%= app.name %></title>
+>>>>>>> c61cb28544263699fd3e9df68be952bbd1203fbd
     <link rel="stylesheet" href="stylesheets/screen.css" media="Screen" type="text/css" />
     <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" type="text/css" />
 
@@ -17,6 +21,7 @@
     <!-- over facebook.  You should fill these tags in with      -->
     <!-- your data.  To learn more about Open Graph, visit       -->
     <!-- 'https://developers.facebook.com/docs/opengraph/'       -->
+<<<<<<< HEAD
     <meta property="og:title" content="Sixtrack" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="www.sixtrack.me" />
@@ -24,6 +29,15 @@
     <meta property="og:site_name" content="Sixtrack" />
     <meta property="og:description" content="My first app" />
     <meta property="fb:app_id" content="159045587614731" />
+=======
+    <meta property="og:title" content="<%= app.name %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= url() %>" />
+    <meta property="og:image" content="<%= url('/logo.png') %>" />
+    <meta property="og:site_name" content="<%= app.name %>" />
+    <meta property="og:description" content="My first app" />
+    <meta property="fb:app_id" content="<%= app.id %>" />
+>>>>>>> c61cb28544263699fd3e9df68be952bbd1203fbd
 
     <script type="text/javascript" src="/scripts/jquery.min.js"></script>
 

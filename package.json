@@ -1,21 +1,15 @@
 {
-  "name": "fb-sample-app",
-  "description": "A sample Facebook application on nodejs.",
-  "version": "1.0.0",
-  "homepage": "https://github.com/daaku/nodejs-fb-sample-app",
-  "author": "Naitik Shah <n@daaku.org>",
-  "bin": { "fb-sample-app": "./app.js" },
+  "name":     "faceplate",
+  "version":  "0.6.0",
+  "author":   "Heroku",
+  "homepage": "https://github.com/heroku/faceplate",
+  "description": "Wrapper for Facebook authentication and API",
   "repository": {
     "type": "git",
-    "url": "https://github.com/daaku/nodejs-fb-sample-app"
+    "url":  "https://github.com/heroku/faceplate"
   },
   "dependencies": {
-    "express": "3.x",
-    "request": "2.11.x",
-    "signed-request": "1.0.x"
-  },
-  "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
+    "b64url":  "1.0.3",
+    "restler": "2.0.0"
   }
 }
